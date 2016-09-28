@@ -1,0 +1,21 @@
+{
+    "name": "thomaskahn/importexport",
+    "description": "A library to facilitate importing and exporting of data in Excel format.",
+    "type": "library",
+    "version":"0.1.0",
+    "require": {
+        "php": ">=5.5.0",
+        "phpoffice/phpexcel": "^1.8"
+    },
+    "authors": [
+        {
+            "name": "Thomas Kahn",
+            "email": "thomaskahn@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ImportExport\\":        "src/"
+        }
+    }
+}
